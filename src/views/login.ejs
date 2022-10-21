@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/Logo Tecnologia  Moderno Degradado .png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <title>Testudine</title>
+    <style>
+      body {
+        background-image: linear-gradient(
+          to left top,
+          #ffffff,
+          #fcfcff,
+          #f9f8ff,
+          #f6f5ff,
+          #f3f2ff,
+          #f3f2ff,
+          #f3f2ff,
+          #f3f2ff,
+          #f6f5ff,
+          #f9f8ff,
+          #fcfcff,
+          #ffffff
+        );
+      }
+    </style>
+  </head>
+  <body class="text-center">
+    <main class="form-signin w-100 py-4 h-100 centerLogin">
+      
+
+      <!---->
+      <form action="/logear" method="post">
+        <div
+        class="modal modal-signin position-static d-block py-5"
+        tabindex="-1"
+        role="dialog"
+        id="modalSignin"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <a href="/">
+              <img
+                class=""
+                src="/img/Mi proyecto.png"
+                alt="Logo"
+                width="200"
+                height="200"
+              />
+            </a>
+            <div class="  pb-4 border-bottom-0">
+              <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
+              <h1 class="fw-bold mb-0 fs-2">Bienvenido</h1>
+            </div>
+            <div class="modal-body p-5 pt-0">
+            
+              
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="correo@ejemplo.com"
+                  name="correo"
+                />
+                <label for="floatingInput">Direccion de Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+                name="contraseña"
+              />
+              <label for="floatingPassword">Contraseña</label>
+
+             
+              </div>
+              <label class="pb-3">
+                <input type="checkbox" value="remember-me" /> Recuerdame
+              </label>
+              <button
+                class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                type="submit"
+                id="comment-btn"
+              >
+                Ingresar
+              </button>
+              
+              <p class="mt-5 mb-3 text-muted">
+                ¿No tienes una cuenta?
+                <a href="/singin" class="link-primary">Registrate</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </form>
+
+    </main>
+  </body>
+</html>

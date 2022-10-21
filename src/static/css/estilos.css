@@ -1,0 +1,49 @@
+.text-testudine {
+
+    color: #2A2A6D !important;
+
+}
+
+.donation-color{
+    background-image: linear-gradient(to bottom, #e9e9ff, #efeeff, #f5f4ff, #faf9ff, #ffffff);
+}
+.mainColor {
+    background-image: linear-gradient(to bottom, #ffffff, #f4f2fd, #e8e6fb, #dcdafa, #d0cef8, #d0cef8, #d0cef8, #d0cef8, #dcdafa, #e8e6fb, #f4f2fd, #ffffff);
+}
+.viewFull {
+    height: 100vh;
+}
+* {
+    list-style: none;
+    text-decoration: none !important;
+  }
+  
+
+
+#header img{
+    width: 95px;
+}
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit:contain;
+    padding-bottom: 60px;
+ 
+
+}
+#main h5  {
+    color:#2A2A6D;
+}
+#main p  {
+    color: black;
+}
+#main .carousel-indicators button {
+    background-color:#2A2A6D;
+   
+}
+#contacto {
+    
+    background-image: linear-gradient(to bottom, #ffffff, #faf9ff, #f5f4ff, #efeeff, #e9e9ff);
+    
+}
+
+
